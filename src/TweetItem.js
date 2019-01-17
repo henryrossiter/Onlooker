@@ -6,15 +6,17 @@ import TweetOptionsMenu from './TweetOptionsMenu';
 
 import { Column, Row } from 'simple-flexbox';
 
-import MasterTheme from './MaterialTheme';
-
 import windowSize from 'react-window-size';
-
-import { MuiThemeProvider } from '@material-ui/core/styles';
 
 import {isMobile} from 'react-device-detect';
 
 import Fade from '@material-ui/core/Fade';
+
+//more exports here
+
+import { MuiThemeProvider } from '@material-ui/core/styles';
+
+import MasterTheme from './MaterialTheme';
 
 class ColoredIcons extends React.Component {
 
@@ -27,6 +29,7 @@ class ColoredIcons extends React.Component {
     )
   }
 }
+
 class TweetItem extends React.Component {
 
   render() {

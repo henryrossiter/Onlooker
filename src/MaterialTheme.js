@@ -6,9 +6,9 @@ const MasterTheme = createMuiTheme({
       main: '#657786',
     },
     secondary: {
-      main: '#657786',
+      main: '#333333',
     },
-    twitterBlue: {
+    blue: {
       main: '#1DA1F2',
     },
   },
